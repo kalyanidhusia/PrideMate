@@ -20,33 +20,40 @@ Validation Hurdles: PRIDE’s validation process often requires multiple iterati
 
 Use the following checklist to ensure all steps are completed successfully. Check off items as you proceed.
 
-### 1. Prepare Raw Data
+### 1. Prepare Data
 - [ ] Collect `.raw` or equivalent instrument output files.
-- [ ] Ensure filenames comply with PRIDE’s naming conventions (0–9, A–Z, `_`, `-`).
+- [x] Ensure filenames comply with PRIDE’s naming conventions (0–9, A–Z, `_`, `-`).
 
 ### 2. Process Data
-- [ ] Validate all `.mzIdentML`, `.mzTab`, and processed files.
-- [ ] Ensure quantification methods (e.g., NSAF) are properly described.
+- [x] Validate all `.mzIdentML`, `.mzTab`, and processed files.
 
 ### 3. Metadata Preparation
-- [ ] Provide detailed sample preparation protocols.
+- [x] Provide detailed sample preparation protocols.
 - [ ] Include search parameters (e.g., fixed/variable modifications, database, software version).
 - [ ] Select the closest instrument match from PRIDE’s controlled vocabulary.
 
 ### 4. File Organization
 - [ ] Organize raw, processed, and metadata files into separate directories.
-- [ ] Generate a `checksum.txt` file for all submitted files.
+- [x] Generate a `checksum.txt` file for all submitted files.
 
 ### 5. Submission Process
-- [ ] Use the PRIDE Submission
+- [x] Use the PRIDE Submission
 
 
-Tips for Success
-File Naming: Address special characters in filenames early in the process to avoid cascading issues.
-Validation Tool: Regularly use PRIDE’s validation tool to identify and resolve issues iteratively.
-Documentation: Maintain detailed records of experimental protocols and file dependencies to streamline metadata preparation.
-Collaboration: Coordinate with collaborators early to resolve gaps in raw data or metadata.
-This guide is designed to make your PRIDE submission smoother and minimize delays. 
+
+## Installation and Usage Guide
+
+### **Install Requirements**
+Make sure you have Python installed on your system. Then, install the required dependencies by running the following command:  
+
+```
+conda env create --name PrideMate --file=pride_env.yml
+```
+
+### Use code by:
+```
+python PRideMate.py PATHTOMZIDFOLDER
+```
 
 ### Reach out to us at KDhusia@uams.edu for help !!!
 
