@@ -52,7 +52,7 @@ conda env create --name PrideMate --file=pride_env.yml
 
 ### Use code by:
 ```
-python PRideMate.py PATHTOMZIDFOLDER
+python PRideMate.py PATH_TO_MZID-FOLDER
 ```
 
 ### Reach out to us at KDhusia@uams.edu for help !!!
