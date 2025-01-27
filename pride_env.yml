@@ -1,0 +1,17 @@
+name: PrideMate_env
+name: PrideMate_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas  # For data manipulation
+  - lxml  # XML processing if required
+  - rename  # Utility for file renaming from bioconda
+  - elementpath  # XPath expressions
+  - speedcopy  # File copying utility
+  - pip
+  - pip:
+      - xmlschema  # XML Schema validation
+      - openpyxl  # For reading Excel files
