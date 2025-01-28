@@ -42,18 +42,26 @@ Use the following checklist to ensure all steps are completed successfully. Chec
 
 
 ## Installation and Usage Guide
+Here's the updated requirements.txt content for cross-platform compatibility and a command to set it up:
 
-### **Install Requirements**
-Make sure you have Python installed on your system. Then, install the required dependencies by running the following command:  
+### requirements.txt
 
 ```
-conda env create --name PrideMate --file=pride_env.yml
+lxml
+rename
+elementpath
+speedcopy
+xmlschema
 ```
+## Setup Command
 
-### Use code by:
-```
-python PRideMate.py PATH_TO_MZID-FOLDER
-```
+Ensure you have Python 3.9+ installed.
+
+Run the following command to install the dependencies:
+`pip install -r requirements.txt`
+
+This setup avoids Conda and ensures compatibility across operating systems.
+
 
 ### Reach out to us at KDhusia@uams.edu for help !!!
 
