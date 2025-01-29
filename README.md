@@ -1,4 +1,5 @@
-Welcome to the PRIDE Submission Helper repository! 🎉 This project was born out of real-world challenges faced during the submission of proteomics datasets to the ProteomeXchange Consortium via PRIDE.
+Welcome to the PRIDE Submission Helper repository! 🎉 
+This project was born out of real-world challenges faced during the submission of proteomics datasets to the ProteomeXchange Consortium via PRIDE.
 If you’ve ever struggled with file naming conventions, metadata preparation, or validation errors, you’re in the right place! This repository is designed to make your life easier by providing scripts and tools to streamline the submission process.
 
 # PrideMate
