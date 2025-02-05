@@ -54,6 +54,7 @@ rename
 elementpath
 speedcopy
 xmlschema
+speedcopy
 ```
 ## Setup Command
 
