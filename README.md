@@ -40,10 +40,12 @@ Use the following checklist to ensure all steps are completed successfully. Chec
 
 ### 5. Submission Process
 - [x] Use the PRIDE Submission
-
+- [ ] 
+*********************************************************************************
 
 ## Generating checksum
 `pip install pride-checksum`
+
 `pride_checksum --out_path FOLDER_WITH-ALL-FILES --files_list_path checksum.txt`
 
 ## Installation and Usage Guide
