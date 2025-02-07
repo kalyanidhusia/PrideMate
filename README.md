@@ -39,8 +39,8 @@ Use the following checklist to ensure all steps are completed successfully. Chec
 - [x] Generate a `checksum.txt` file for all submitted files.
 
 ### 5. Submission Process
-- [x] Use the PRIDE Submission
-- [ ] 
+- [x] Use the PRIDE standalone tool Submission
+- [ ] generate submission.px
 *********************************************************************************
 
 ## Generating checksum
