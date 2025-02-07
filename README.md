@@ -42,6 +42,9 @@ Use the following checklist to ensure all steps are completed successfully. Chec
 - [x] Use the PRIDE Submission
 
 
+## Generating checksum
+`pip install pride-checksum`
+`pride_checksum --out_path FOLDER_WITH-ALL-FILES --files_list_path checksum.txt`
 
 ## Installation and Usage Guide
 Here's the updated requirements.txt content for cross-platform compatibility and a command to set it up:
