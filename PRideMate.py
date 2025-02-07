@@ -8,16 +8,15 @@ This script processes `.mzid` and `.MGF` files to comply with PRIDE submission r
 
 ## How to Use ##
 1. Install Python 3.8+ if not already installed.
-2. Install required dependencies:
+2. Create conda env using the given yml 
+` conda env create -f pride_env.yml`
 
-   - Use: `pip install -r requirements.txt`
-
-3. Place the `.mzid` and `.MGF` files in the same folder.
+3. Place the `.mzid` and `.MGF` files all in the one folder.
 4. Run the script:
 
    - Use: `python PRideMate.py`
    
-5. Enter the folder path containing the `.mzid` and `.MGF` files when prompted.
+5. Enter the full folder path containing the `.mzid` and `.MGF` files when prompted.
 
 """)
 
